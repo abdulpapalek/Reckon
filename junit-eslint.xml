@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+<testsuite package="org.eslint" time="0" tests="2" errors="2" name="C:\Users\Alex.Amante\development\apps-take-home-project-backend-alexander-kevin-amante\src\graphql\resolvers.js">
+<testcase time="0" name="org.eslint.no-useless-catch" classname="C:\Users\Alex.Amante\development\apps-take-home-project-backend-alexander-kevin-amante\src\graphql\resolvers"><failure message="Unnecessary try/catch wrapper."><![CDATA[line 11, col 11, Error - Unnecessary try/catch wrapper. (no-useless-catch)]]></failure></testcase>
+<testcase time="0" name="org.eslint.no-useless-catch" classname="C:\Users\Alex.Amante\development\apps-take-home-project-backend-alexander-kevin-amante\src\graphql\resolvers"><failure message="Unnecessary try/catch wrapper."><![CDATA[line 41, col 11, Error - Unnecessary try/catch wrapper. (no-useless-catch)]]></failure></testcase>
+</testsuite>
+</testsuites>

@@ -1,0 +1,28 @@
+{
+  "name": "Reckon",
+  "version": "1.0.1",
+  "scripts": {
+    "test": "jest --verbose",
+    "lint-test": "eslint .",
+    "lint": "eslint --fix ."
+  },
+  "pre-commit": [
+    "test",
+    "lint-test"
+  ],
+  "dependencies": {
+    "axios": "^0.21.1",
+    "restify": "4.3.4"
+  },
+  "engines": {
+    "node": "12.16.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.14.5",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "^7.24.0",
+    "jest": "^27.0.6",
+    "pre-commit": "^1.2.2"
+  }
+}
